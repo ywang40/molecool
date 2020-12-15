@@ -5,6 +5,8 @@ A python package for analyzing and visualizing xyz files.
 
 # Add imports here
 from .functions import canvas
+from .functions import calculate_distance
+from .functions import bond_histogram
 
 # Handle versioneer
 from ._version import get_versions
